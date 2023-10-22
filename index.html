@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  <header class="header">
+  <header class="header header-main">
     <div class="container">
       <div class="header__top">
         <a class="logo" href="#">
@@ -27,7 +30,7 @@
         <h1 data-wow-delay=".5s" class="header__title wow animate__fadeInLeft">
           авто из сша “под ключ”
         </h1>
-        <h2 data-wow-delay="1s" class="head er__subtitle wow animate__fadeInLeft">
+        <h2 data-wow-delay="1s" class="header__subtitle wow animate__fadeInLeft">
           ЗАКАЖИ СЕБЕ АВТО ИЗ США С ВЫГОДОЙ ДО 40%
         </h2>
         <p data-wow-delay="1.5s" class="header__text wow animate__fadeInLeft">
@@ -48,216 +51,241 @@
             <img class="social__img" src="images/icon/facebook.svg" alt="facebook icon">
           </a>
         </div>
-        <img data-wow-delay="2s" class="header__images wow animate__fadeInUpBig" src="images/ford-mustang1.png" alt="ford mustang">
+        <!-- <img data-wow-delay="2s" class="header__images wow animate__fadeInUpBig" src="images/ford-mustang1.png" alt="ford mustang"> -->
 
-        header__text wow animate__fadeInLeft
+        <!-- header__text wow animate__fadeInLeft -->
 
       </div>
     </div>
   </header>
 
-  <section class="services">
-    <div class="container">
-      <h2 class="title">НАШИ УСЛУГИ</h2>
-      <div class="services__inner">
-        <div class="services__content">
-          <div class="services__content-box">
-            <h6 class="services__content-title">
-              Почему ввоз авто из США?
-            </h6>
-            <div class="services__content-textbox">
-              <p class="services__content-text">
-                Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
-              </p>
-              <p class="services__content-text">
-                Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из лучших выборов для автолюбителей Украины.
-              </p>
-            </div>
-          </div>
-          <div class="services__content-box">
-            <h6 class="services__content-title">
-              Из-за чего такая низкая цена?
-            </h6>
-            <div class="services__content-textbox">
-              <p class="services__content-text">
-                Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп, доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на 35-50%, а новые будут стоить космических денег.
-              </p>
-            </div>
-            <a class="button button--decor" href="#">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
-          </div>
+  <main class="main">
+
+    <div class="slider">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(images/slider/slider-1.jpg);"></div>
+          <div class="swiper-slide" style="background-image: url(images/slider/slider-2.1.png);"></div>
+          <div class="swiper-slide" style="background-image: url(images/slider/slider-3.1.png);"></div>
+          <div class="swiper-slide" style="background-image: url(images/slider/slider-4.1.png);"></div>
         </div>
-        <ol class="services__list">
-          <li data-wow-delay="1s" class="services__item wow animate__fadeInRight">
-            <p class="services__item-title">Покупка авто</p>
-            <p class="services__item-text">Подбор автомобиля и экспертная проверка</p>
-          </li>
-          <li data-wow-delay="1.2s" class="services__item wow animate__fadeInRight">
-            <p class="services__item-title">Доставка морем</p>
-            <p class="services__item-text">Расчет оптимальной стоимости доставки авто</p>
-          </li>
-          <li data-wow-delay="1.4s" class="services__item wow animate__fadeInRight">
-            <p class="services__item-title">Растаможка авто</p>
-            <p class="services__item-text">Прохождение таможенного оформления (2-3 дня)</p>
-          </li>
-          <li data-wow-delay="1.6s" class="services__item wow animate__fadeInRight">
-            <p class="services__item-title">Ремонт авто</p>
-            <p class="services__item-text">Комплексный ремонт автомобиля на  СТО</p>
-          </li>
-          <li data-wow-delay="1.8s" class="services__item wow animate__fadeInRight">
-            <p class="services__item-title">Сертификация</p>
-            <p class="services__item-text">Услуга предоставляется по желанию</p>
-          </li>
-          <li data-wow-delay="2s" class="services__item wow animate__fadeInRight">
-            <p class="services__item-title">Постановка на учет</p>
-            <p class="services__item-text">Оформление автомобиля в Украине</p>
-          </li>
-        </ol>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
-  </section>
 
-  <section class="benefits">
-    <div class="container">
-      <div class="benefits__inner">
-        <img data-wow-delay="2s" class="benefits__images wow animate__fadeInUp" src="images/car.png" alt="car">
-        <div class="benefits__content">
-          <h2 class="title benefits__title">ПОЧЕМУ МЫ?</h2>
-          <ul class="benefits__list">
-            <li class="benefits__item">
-              <p class="benefits__item-num">650</p>
-              <p class="benefits__item-title">успешно доставленных авто</p>
-              <p class="benefits__item-text">большой опыт пригона автомобилей из США под ключ, все клиенты остались довольны на 100%</p>
-            </li>
-            <li class="benefits__item">
-              <p class="benefits__item-num">5</p>
-              <p class="benefits__item-title">лет на рынке Украины</p>
-              <p class="benefits__item-text">Работаем по всей территории Украины, работаем по договору с клиентами</p>
-            </li>
-            <li class="benefits__item">
-              <p class="benefits__item-num">100 %</p>
-              <p class="benefits__item-title">доверия клиентов</p>
-              <p class="benefits__item-text">Онлайн отчетность. Вы всегда в курсе статуса подбора вашего авто. Фото и видео отчет</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="carousel">
-    <div class="container">
-      <h2 class="title">
-        ПРИГНАННЫЕ НАМИ АВТО
-      </h2>
-      <div class="carousel__inner">
-
-        <div class="carousel__item">
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/1.jpg" alt="">
-            <h4 class="carousel__item-title">INFINITI QX50 2016 г.</h4>
-            <p class="carousel__item-text">Экономия 4500 $</p>
-          </div>
-        </div>
-        <div class="carousel__item">  
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/2.jpg" alt="">
-            <h4 class="carousel__item-title"> TESLA MODEL 3 2018 г.</h4>
-            <p class="carousel__item-text">Экономия 5500 $</p>
-          </div>
-        </div>
-        <div class="carousel__item"> 
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/3.jpg" alt="">
-            <h4 class="carousel__item-title"> Lexus ES 200/250/350 2018 г.</h4>
-            <p class="carousel__item-text">Экономия 5500 $</p>
-          </div>
-        </div>
-        <div class="carousel__item"> 
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/4.jpg" alt="">
-            <h4 class="carousel__item-title">INFINITI QX50 2016 г.</h4>
-            <p class="carousel__item-text">Экономия 4500 $</p>
-          </div>
-        </div>  
-        <div class="carousel__item">   
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/5.jpg" alt="">
-            <h4 class="carousel__item-title"> TESLA MODEL 3 2018 г.</h4>
-            <p class="carousel__item-text">Экономия 5500 $</p>
-          </div>
-        </div>  
-        <div class="carousel__item">   
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/6.jpg" alt="">
-            <h4 class="carousel__item-title"> Lexus ES 200 D-CVT 2018 г.</h4>
-            <p class="carousel__item-text">Экономия 5500 $</p>
-          </div>
-        </div>  
-        <div class="carousel__item"> 
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/7.jpg" alt="">
-            <h4 class="carousel__item-title">INFINITI QX50 2016 г.</h4>
-            <p class="carousel__item-text">Экономия 4500 $</p>
-          </div>
-        </div>
-        <div class="carousel__item"> 
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/8.jpg" alt="">
-            <h4 class="carousel__item-title"> TESLA MODEL 3 2018 г.</h4>
-            <p class="carousel__item-text">Экономия 5500 $</p>
-          </div>
-        </div>
-        <div class="carousel__item"> 
-          <div class="carousel__item-box">
-            <img class="carousel__item-img" src="images/carousel/9.jpg" alt="">
-            <h4 class="carousel__item-title"> Lexus UX 2018 г.</h4>
-            <p class="carousel__item-text">Экономия 5500 $</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="contacts">
-    <div class="container">
-      <div class="contacts__inner">
-        <div class="contacts__info">
-          <h2 class="title">
-            КОНТАКТЫ
-          </h2>
-          <ul class="contacts__list">
-            <li class="contacts__item">
-              <p class="contacts__item-title">Адрес</p>
-              <p class="contacts__item-text">
-                Киев, Подол <br>
-                ул. Константиновская, д.71
+    <section class="services">
+      <div class="container">
+        <h2 class="title">НАШИ УСЛУГИ</h2>
+        <div class="services__inner">
+          <div class="services__content">
+            <div class="services__content-box">
+              <h6 class="services__content-title">
+                Почему ввоз авто из США?
+              </h6>
+              <div class="services__content-textbox">
+                <p class="services__content-text">
+                  Мы сравнили рынки США с Европейскими и поняли, что покупка автомобиля в Америке выгоднее в несколько
+                  раз, как бы парадоксально это не звучало. Это вызвано продуманной логистикой, уровнем развития
+                  сервисов по оцениванию состояния авто и самим процессом покупки автомобиля.
                 </p>
+                <p class="services__content-text">
+                  Большинство граждан США берут автомобиль в лизинг на несколько лет и все время эксплуатации сама
+                  лизинговая компания занимается постоянным ТО автомобиля, вследствие чего, машины из США – один из
+                  лучших выборов для автолюбителей Украины.
+                </p>
+              </div>
+            </div>
+            <div class="services__content-box">
+              <h6 class="services__content-title">
+                Из-за чего такая низкая цена?
+              </h6>
+              <div class="services__content-textbox">
+                <p class="services__content-text">
+                  Битые автомобили из США выкупаются с аукционов страховых компаний. На этих аукционах машина теряет
+                  половину цены даже из-за минимальных повреждений. Если учитывать денежные затраты, а именно выкуп,
+                  доставку, таможню и ремонт, то цена аналогичного по состоянию автомобиля в Украине будет выше на
+                  35-50%, а новые будут стоить космических денег.
+                </p>
+              </div>
+              <a class="button button--decor" href="#">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+            </div>
+          </div>
+          <ol class="services__list">
+            <li data-wow-delay="1s" class="services__item wow animate__fadeInRight">
+              <p class="services__item-title">Покупка авто</p>
+              <p class="services__item-text">Подбор автомобиля и экспертная проверка</p>
             </li>
-            <li class="contacts__item">
-              <p class="contacts__item-title">Время работы</p>
-              <p class="contacts__item-text">
-                Пн-Сб: с 9:00 до 19:00, <br>
-                Вс: выходной
-              </p>
+            <li data-wow-delay="1.2s" class="services__item wow animate__fadeInRight">
+              <p class="services__item-title">Доставка морем</p>
+              <p class="services__item-text">Расчет оптимальной стоимости доставки авто</p>
             </li>
-            <li class="contacts__item">
-              <p class="contacts__item-title">Телефон</p>
-              <p class="contacts__item-text">
-                +38 (050) 555 66 77
-              </p>
+            <li data-wow-delay="1.4s" class="services__item wow animate__fadeInRight">
+              <p class="services__item-title">Растаможка авто</p>
+              <p class="services__item-text">Прохождение таможенного оформления (2-3 дня)</p>
             </li>
-          </ul>
+            <li data-wow-delay="1.6s" class="services__item wow animate__fadeInRight">
+              <p class="services__item-title">Ремонт авто</p>
+              <p class="services__item-text">Комплексный ремонт автомобиля на СТО</p>
+            </li>
+            <li data-wow-delay="1.8s" class="services__item wow animate__fadeInRight">
+              <p class="services__item-title">Сертификация</p>
+              <p class="services__item-text">Услуга предоставляется по желанию</p>
+            </li>
+            <li data-wow-delay="2s" class="services__item wow animate__fadeInRight">
+              <p class="services__item-title">Постановка на учет</p>
+              <p class="services__item-text">Оформление автомобиля в Украине</p>
+            </li>
+          </ol>
         </div>
-        <form class="contacts__form">
-          <h2 class="title contacts__title">Оставить заявку</h2>
-          <input class="contacts__input" type="text" placeholder="Как Вас зовут?">
-          <input class="contacts__input" type="tel" placeholder="Ваш номер телефона">
-          <button class="contacts__btn button" type="submit">Отправить заявку</button>
-        </form>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits__inner">
+          <img data-wow-delay="2s" class="benefits__images wow animate__fadeInUp" src="images/car.png" alt="car">
+          <div class="benefits__content">
+            <h2 class="title benefits__title">ПОЧЕМУ МЫ?</h2>
+            <ul class="benefits__list">
+              <li class="benefits__item">
+                <p class="benefits__item-num">650</p>
+                <p class="benefits__item-title">успешно доставленных авто</p>
+                <p class="benefits__item-text">большой опыт пригона автомобилей из США под ключ, все клиенты остались
+                  довольны на 100%</p>
+              </li>
+              <li class="benefits__item">
+                <p class="benefits__item-num">5</p>
+                <p class="benefits__item-title">лет на рынке Украины</p>
+                <p class="benefits__item-text">Работаем по всей территории Украины, работаем по договору с клиентами</p>
+              </li>
+              <li class="benefits__item">
+                <p class="benefits__item-num">100 %</p>
+                <p class="benefits__item-title">доверия клиентов</p>
+                <p class="benefits__item-text">Онлайн отчетность. Вы всегда в курсе статуса подбора вашего авто. Фото и
+                  видео отчет</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel">
+      <div class="container">
+        <h2 class="title">
+          ПРИГНАННЫЕ НАМИ АВТО
+        </h2>
+        <div class="carousel__inner">
+
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/1.jpg" alt="">
+              <h4 class="carousel__item-title">INFINITI QX50 2016 г.</h4>
+              <p class="carousel__item-text">Экономия 4500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/2.jpg" alt="">
+              <h4 class="carousel__item-title"> TESLA MODEL 3 2018 г.</h4>
+              <p class="carousel__item-text">Экономия 5500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/3.jpg" alt="">
+              <h4 class="carousel__item-title"> Lexus ES 200/250/350 2018 г.</h4>
+              <p class="carousel__item-text">Экономия 5500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/4.jpg" alt="">
+              <h4 class="carousel__item-title">INFINITI QX50 2016 г.</h4>
+              <p class="carousel__item-text">Экономия 4500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/5.jpg" alt="">
+              <h4 class="carousel__item-title"> TESLA MODEL 3 2018 г.</h4>
+              <p class="carousel__item-text">Экономия 5500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/6.jpg" alt="">
+              <h4 class="carousel__item-title"> Lexus ES 200 D-CVT 2018 г.</h4>
+              <p class="carousel__item-text">Экономия 5500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/7.jpg" alt="">
+              <h4 class="carousel__item-title">INFINITI QX50 2016 г.</h4>
+              <p class="carousel__item-text">Экономия 4500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/8.jpg" alt="">
+              <h4 class="carousel__item-title"> TESLA MODEL 3 2018 г.</h4>
+              <p class="carousel__item-text">Экономия 5500 $</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img class="carousel__item-img" src="images/carousel/9.jpg" alt="">
+              <h4 class="carousel__item-title"> Lexus UX 2018 г.</h4>
+              <p class="carousel__item-text">Экономия 5500 $</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__info">
+            <h2 class="title">
+              КОНТАКТЫ
+            </h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <p class="contacts__item-title">Адрес</p>
+                <p class="contacts__item-text">
+                  Киев, Подол <br>
+                  ул. Константиновская, д.71
+                </p>
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__item-title">Время работы</p>
+                <p class="contacts__item-text">
+                  Пн-Сб: с 9:00 до 19:00, <br>
+                  Вс: выходной
+                </p>
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__item-title">Телефон</p>
+                <p class="contacts__item-text">
+                  +38 (050) 555 66 77
+                </p>
+              </li>
+            </ul>
+          </div>
+          <form class="contacts__form">
+            <h2 class="title contacts__title">Оставить заявку</h2>
+            <input class="contacts__input" type="text" placeholder="Как Вас зовут?">
+            <input class="contacts__input" type="tel" placeholder="Ваш номер телефона">
+            <button class="contacts__btn button" type="submit">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <footer class="footer">
     <div class="container">
@@ -286,12 +314,14 @@
     </div>
   </footer>
 
-  
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
